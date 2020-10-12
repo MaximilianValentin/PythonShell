@@ -1,6 +1,7 @@
 import PythonClasses
 shellCode = 1
 
+
 while shellCode == 1:
     lastStatement = input("$ ")
     if lastStatement == "":
@@ -23,5 +24,7 @@ while shellCode == 1:
         PythonClasses.create_file()
     elif lastStatement == "new text file":
         PythonClasses.new_txt_file()
+    elif lastStatement == "exit":
+        break
     else:
         print("!!!command not found!!!")
