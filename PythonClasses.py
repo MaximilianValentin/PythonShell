@@ -66,3 +66,7 @@ def create_file():
 
         else:
                 print("this filetype is not supported")
+
+def explore_truth():
+        print("truth")
+

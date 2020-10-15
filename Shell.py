@@ -24,6 +24,12 @@ while shellCode == 1:
         PythonClasses.create_file()
     elif lastStatement == "new text file":
         PythonClasses.new_txt_file()
+
+
+    elif lastStatement == "truth":
+        PythonClasses.explore_truth()
+
+
     elif lastStatement == "exit":
         break
     else:
