@@ -1,2 +1,3 @@
 # PythonShell
-Shell which uses Python code to execute C-Scripts
+Shell/Terminla which includes many usefull Python programms
+
