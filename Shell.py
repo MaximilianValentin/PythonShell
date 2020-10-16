@@ -1,4 +1,7 @@
 import PythonClasses
+import createUserdata
+
+
 shellCode = 1
 
 
@@ -25,11 +28,15 @@ while shellCode == 1:
     elif lastStatement == "new text file":
         PythonClasses.new_txt_file()
 
+    elif lastStatement == "load":
+        PythonClasses.load()
+    elif lastStatement == "make user":
+        createUserdata.make_user()
+    elif lastStatement == "make users":
+        createUserdata.make_mult_users()
 
     elif lastStatement == "truth":
         PythonClasses.explore_truth()
-
-
     elif lastStatement == "exit":
         break
     else:

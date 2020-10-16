@@ -1,3 +1,3 @@
 # PythonShell
-Shell/Terminla which includes many usefull Python programms
+Shell/Terminal which includes many useful Python programs
 

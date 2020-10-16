@@ -1,3 +1,5 @@
+import time
+import sys
 # information functions
 def commands():
         commandList = ["commands", "square", "countChars", "make a note", "show my notes", "delete my notes", "create file", "new txt file", "new python script"]
@@ -66,6 +68,17 @@ def create_file():
 
         else:
                 print("this filetype is not supported")
+
+
+def load(t=5):
+    t0 = time.time()
+    now = t0
+    while now-t0 < t:
+        now = time.time()
+        timestring: str = '\r%%%i\t' % (100*(now-t0)/t)
+        sys.stdout.write(timestring)
+        sys.stdout.flush()
+        time.sleep(0.1)
 
 def explore_truth():
         print("truth")
